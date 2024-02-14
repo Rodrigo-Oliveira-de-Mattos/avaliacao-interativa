@@ -1,0 +1,131 @@
+body{
+    background-color: var(--neutro-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-image: linear-gradient(to bottom, hsl(212, 22%, 15%), hsl(210, 10%, 12%));
+    color: var(--neutro-3);
+    padding: 2.5rem;
+    border-radius: 2rem;
+    width: 40rem;
+}
+
+.card .invisivel{
+    display: none;
+}
+
+.avaliacao, .agradecimento{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 35rem;
+    height: 34rem;
+}
+
+.avaliacao .pergunta{
+    color: var(--neutro-1);
+    font-size: 2.75rem;
+}
+
+.avaliacao .icon-star{
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--neutro-4);
+    display: grid;
+    place-items: center;
+    border-radius: 999pc;
+}
+
+.avaliacao .icon-star img{
+    width: 1.8rem;
+}
+
+.avaliacao .pedido{
+    color: var(--neutro-3);
+    font-size: 1.5rem;
+}
+
+.avaliacao .niveis-avaliacoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.avaliacao .niveis-avaliacoes li{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: var(--neutro-4);
+    cursor: pointer;
+    
+
+}
+
+.avaliacao .submit{
+    background-color: var(--primary);
+    padding: 1.3rem;
+    font-size: 1.7rem;
+    border-radius: 999px;
+    color: var(--neutro-1);
+    cursor: pointer;
+
+}
+
+.avaliacao .niveis-avaliacoes li:hover{
+    background-color: var(--primary);
+    color: var(--neutro-1);
+}
+
+.avaliacao .niveis-avaliacoes .clicado{
+    background-color: var(--neutro-2);
+    color: var(--neutro-5);
+}
+
+.avaliacao .niveis-avaliacoes li:focus{
+    background-color: var(--neutro-2);
+}
+
+.avaliacao .submit:hover{
+    background-color: var(--neutro-1);
+    color: var(--primary);
+}
+
+.transition{
+    transition: ease .3s;
+}
+
+.agradecimento img{
+    width: 15rem;
+}
+
+.agradecimento{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.agradecimento .nivel-selecionado{
+    font-size: 1.2rem;
+    background-color: var(--neutro-4);
+    border-radius: 999px;
+    padding: 0.8rem 1.6rem;
+    color: var(--primary);
+}
+
+.agradecimento .obrigado{
+    color: var(--neutro-1);
+    font-size: 2.3rem;
+}
+
+.agradecimento .texto-agradecimento{
+    font-size: 1.56rem;
+    text-align: center;
+}

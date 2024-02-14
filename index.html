@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação interativa</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    
+</head>
+<body>
+    <main class="card">
+        <div class="avaliacao ">
+            <span class="icon-star"> 
+                <img src="src/img/icon-star.svg" alt="estrela">
+            </span>
+            <h2 class="pergunta">How did we do?</h2>
+            <p class="pedido">
+                Please let us know how we did with your support request. All feddback is appreciated to help us improve our offering!
+            </p>
+            <ul id="niveis-avaliacoes" class="niveis-avaliacoes">
+                <li id="li" class="transition">1</li>
+                <li id="li" class="transition">2</li>
+                <li id="li" class="transition">3</li>
+                <li id="li" class="transition">4</li>
+                <li id="li" class="transition">5</li>
+            </ul>
+            <input id="btn-submit" class="submit transition" type="submit" value="SUBMIT">
+        </div>
+
+        <div class="agradecimento invisivel">
+            <img src="src/img/illustration-thank-you.svg" alt="recibo">
+            <p class="nivel-selecionado">
+                You selected <span>4</span> out of 5
+            </p>
+            <h2 class="obrigado">Thank you!</h2>
+            <p class="texto-agradecimento">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </main>
+
+    <script src="/src/js/index.js"></script>
+</body>
+</html>
