@@ -24,17 +24,3 @@ document.getElementById('btn-submit').addEventListener('click', () => {
 function valor(valor){
     return valorFinal = valor;
 }
-
-// You selected <span>4</span> out of 5
-
-// console.log(valor);
-
-// document.querySelector('#btn-submit').addEventListener('click', () => {
-//     const inputAvaliacao = document.querySelectorAll('#li')
-
-//     console.log(inputAvaliacao);
-
-//     // if(inputAvaliacao){
-//     //     console.log('sem avaliacao');
-//     // }
-// })
